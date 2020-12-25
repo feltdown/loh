@@ -1,0 +1,90 @@
+body{font-family: 'Noto Sans KR', sans-serif; font-size:9px}
+
+table.raidTable {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	/* border-left: 3px solid #369;*/
+	border-left: 1px solid #ccc;
+	margin : 20px 10px;
+}
+table.raidTable th {
+	/*width: 147px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #153d73;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;*/
+	border-right: 1px solid #ccc;
+	height:10px;
+	text-align:center;
+	font-size: 6px !important;
+	background: #fff;
+
+}
+table.raidTable td {
+    width: 200px; 
+	padding: 5px;
+	vertical-align: top;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background: #fff;
+}
+th.bust {
+	border-bottom: 2px solid red;
+}
+th.support {
+	border-bottom: 2px solid #999;
+}
+.skillTr {display:none}
+select {
+    width: 100%; 
+    font-family: inherit; 
+	font-size: inherit; 
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    display: block;
+}
+select.hType {
+	margin-bottom:5px
+}
+td.detailBtn {
+    height: 20px;
+	padding: 0px;
+    background: #ccc !important;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+.half_bg{
+	background: linear-gradient(to top, yellow 50%, transparent 50%);
+}
+#hClassList {
+	float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+#hClassList li {
+	float: left;
+	list-style: none;
+    margin-left: 5px;
+}
+.hClass {
+	vertical-align: bottom;
+    margin: 0px;
+    margin-bottom: 2px;
+}
+.skillDiv {margin-bottom:5px}
+ul.debuff, ul.buff {
+    margin: 0px;
+    padding: 0px;
+}
+ul.debuff li, ul.buff li {
+	list-style: none;
+	float: left;
+    margin-left: 10px;
+}

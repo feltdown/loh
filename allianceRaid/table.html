@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+		<script type="text/javascript" src="heros.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="https://cdn.rawgit.com/eligrey/FileSaver.js/5ed507ef8aa53d8ecfea96d96bc7214cd2476fd2/FileSaver.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.js"></script>
+		<link href="style.css" type="text/css" rel="stylesheet" />
+		<title>연합레이드 세팅</title>
+	 </head>
+
+	 <body>
+		<a href="#" id="imgMake">img download</a>
+		<div id="downloadImage">
+		<table id="raidTable1" class="raidTable" data-number="1">
+			<tr>
+				<th class="bust" colspan="2">BUST</th>
+				<th class="support" colspan="3">SUPPORT</th>
+			</tr>
+			<tr>
+				<td><select class="hType"></select><select class="hName bust" data-unit="1" data-number="1"></select></td>
+				<td><select class="hType"></select><select class="hName bust" data-unit="1" data-number="2"></select></td>
+				<td><select class="hType"></select><select class="hName" data-unit="1" data-number="3"></select></td>
+				<td><select class="hType"></select><select class="hName" data-unit="1" data-number="4"></select></td>
+				<td><select class="hType"></select><select class="hName" data-unit="1" data-number="5"></select></td>
+			</tr>
+			<tr>
+				<td colspan="5">
+					<ul id="hClassList">
+						<li><input type="checkbox" class="hClass" value="프리스트" disabled> 프리스트</li>
+						<li><input type="checkbox" class="hClass" value="슈터" disabled> 슈터</li>
+						<li><input type="checkbox" class="hClass" value="스트라이커" disabled> 스트라이커</li>
+						<li><input type="checkbox" class="hClass" value="워리어" disabled> 워리어</li>
+						<li><input type="checkbox" class="hClass" value="가디언" disabled> 가디언</li>
+						<li><input type="checkbox" class="hClass" value="행증" disabled> 행증</li>
+						<li><input type="checkbox" class="hClass" value="조건부행증" disabled> 조건부 행증</li>
+					</ul>
+			</tr>
+			<tr>
+				<td colspan="1">버프효과</td>
+				<td colspan="4">
+					<ul class="buff"></ul>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="1">디버프효과</td>
+				<td colspan="4">
+					<ul class="debuff"></ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="detailBtn" colspan="5">▼ 스킬 상세보기 ▼	</td>
+			</tr>
+			<tr class="skillTr">
+				<td colspan="5" class="bust">
+					<div class="skillDiv hero11"></div>
+					<div class="skillDiv hero12"></div>
+				</td>
+			</tr>
+			<tr class="skillTr">
+				<td colspan="5" class="skill">
+					<div class="skillDiv hero11"></div>
+					<div class="skillDiv hero12"></div>
+					<div class="skillDiv hero13"></div>
+					<div class="skillDiv hero14"></div>
+					<div class="skillDiv hero15"></div>
+				</td>
+			</tr>
+		</table>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+</html>
